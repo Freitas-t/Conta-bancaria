@@ -14,7 +14,7 @@ public class ContaTerminal {
         System.out.println("Digite o número da agencia: ");
         String agencia = scanner.next();
 
-        scanner.nextLine();
+        scanner.nextLine();  //Aqui eu emplementei esse consmo de caractere, devido o espaço no nome do cliente.
 
         System.out.println("Digite o nome do cliente: ");
         String nomeCliente = scanner.nextLine();
